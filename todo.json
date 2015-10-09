@@ -1,0 +1,31 @@
+var Brain =
+{
+	memories:{
+		shortTerm:null,
+		longTerm:null,
+	},
+	processing:null,
+	sensors:{
+		input:null,
+		output:null
+	},
+	learning:{
+		recognise:null,
+		environment:null,
+		motion:null,
+		touching:null,
+		speaking:null
+	},
+	emotions:{
+		movitation:null,	
+		mood:null,	
+		personality:null,
+		feeling:null,
+		temperature:null,
+		health:null,
+		socialInfluence:null	
+	},
+	freeWill:null,
+	consciousness:null,
+	lifeSpan:null
+}
