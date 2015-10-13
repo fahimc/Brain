@@ -1,0 +1,26 @@
+{
+  "name": "Brain",
+  "version": "1.0.0",
+  "description": "Experimental repo for an artificial brain",
+  "main": "src/Brain.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fahimc/Brain.git"
+  },
+  "dependencies": {
+    "express": "*",
+    "shelljs": "^0.5.3",
+    "ws": "^0.8.0",
+    "pem": "^1.8.1"
+  },
+  "author": "Fahim Chowdhury <fahim.chowdhury@thomsonreuters.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fahimc/Brain/issues"
+  },
+  "homepage": "https://github.com/fahimc/Brain"
+}
+
