@@ -1,6 +1,7 @@
 var express = require('express');
-require('shelljs/global');
+var Language = require('../../processing/language.js');
 var WebSocketServer = require('ws').Server;
+require('shelljs/global');
 
 var VoiceRecognition = {
 	ws:null,
@@ -31,7 +32,8 @@ var VoiceRecognition = {
 		this.ws.on('message', this.onMessage.bind(this));
 	},
 	onMessage:function(message){
-		console.log(message);
+		//console.log(message);
+		Language.process(message);
 		//this.ws.send(message);
 	}
 };
