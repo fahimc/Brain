@@ -1,7 +1,7 @@
-var Language = {
+var Learning = {
 	brain:null,
 	processors:{
-		question:require('./language/question.js')
+		train:require('./learning/train.js')
 	},
 	init:function(brain){
 		this.brain = brain;
@@ -16,5 +16,5 @@ var Language = {
 	}
 };
 
-module.exports = Language;
+module.exports = Learning;
 

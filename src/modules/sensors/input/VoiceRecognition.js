@@ -34,7 +34,11 @@ var VoiceRecognition = {
 	onMessage:function(message){
 		//console.log(message);
 		Language.process(message);
-		//this.ws.send(message);
+		this.brain.processors.learning.process(message);
+		//
+	},
+	send:function(text){
+		this.ws.send(text);
 	}
 };
 

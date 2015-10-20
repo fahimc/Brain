@@ -14,7 +14,11 @@
     "express": "*",
     "shelljs": "^0.5.3",
     "ws": "^0.8.0",
-    "pem": "^1.8.1"
+    "pem": "^1.8.1",
+    "nlp_compromise": "*",
+    "speakeasy-nlp": "*",
+    "google": "*",
+    "natural": "^0.1.22"
   },
   "author": "Fahim Chowdhury <fahim.chowdhury@thomsonreuters.com>",
   "license": "ISC",
